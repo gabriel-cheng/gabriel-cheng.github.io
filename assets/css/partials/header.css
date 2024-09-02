@@ -1,0 +1,51 @@
+.header_main-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header_main-subcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  40px 0;
+}
+
+.header_icon-container{
+    display: contents;
+}
+
+.header_list-options {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0 70px;
+    gap: 15px;
+}
+
+.header_list-options li {
+    margin: 0;
+    text-wrap: nowrap;
+}
+
+.header_list-options li a {
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: block;
+}
+
+.header_button-container a {
+    display: block;
+}
+
+.header_button-container a button {
+    text-wrap: nowrap;
+    font-size: 0.7rem;
+    font-weight: 600;
+    line-height: 11px;
+    width: 160px;
+}

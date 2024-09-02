@@ -1,0 +1,40 @@
+.home_sec-section-container {
+    background-color: var(--solarbens-white);
+    color: var(--solarbens-black);
+}
+
+.home_sec-section-content {
+    padding: 60px 0;
+}
+
+.home_sec-section-title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.home_sec-section-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home_sec-section-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.home_sec-section-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    border: 2px solid var(--solarbens-base);
+    padding: 25px;
+    border-radius: 30px;
+    max-width: 370px;
+    width: 100%;
+}
+
+.home_sec-section-card-text p {
+    font-size: 0.8rem;
+}

@@ -1,0 +1,51 @@
+.home_thr-section-container {
+    background-image: url("../../images/backgrounds/solarbens_estrutura_solarbens_home_bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--solarbens-white);
+    padding-bottom: 60px;
+}
+
+.home_thr-section-content {
+    display: grid;
+    grid-template-areas:
+        "title img"
+        "txt img"
+        "btn img"
+    ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home_thr-section-title {
+    grid-area: title;
+    font-size: 2rem;
+    color: var(--solarbens-black);
+    margin-bottom: 20px;
+    line-height: 60px;
+}
+
+.home_thr-section-text {
+    grid-area: txt;
+    max-width: 550px;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.home_thr-section-button-container {
+    grid-area: btn;
+}
+
+.home_thr-section-logotype {
+    grid-area: img;
+}
+
+.home_thr-section-logotype img {
+    max-width: 500px;
+    width: 100%;
+}
+
+.home_thr-section-button {
+    width: 160px;
+    font-weight: 600;
+}

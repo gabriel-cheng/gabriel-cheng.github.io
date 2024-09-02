@@ -12,7 +12,6 @@
 }
 
 .home_fir-section-text {
-    color: var(--solarbens-white);
     text-align: center;
     margin: 0 0 40px 0;
 }
@@ -20,6 +19,7 @@
 .home_fir-section-text h1 {
     font-size: 2.6rem;
     font-weight: 500;
+    color: var(--solarbens-white);
 }
 
 .home_fir-section-button {

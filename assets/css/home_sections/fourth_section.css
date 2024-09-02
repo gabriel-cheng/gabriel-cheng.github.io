@@ -1,0 +1,32 @@
+.home_fourth-section-container {
+    background-image: url("../../images/backgrounds/solarbens_estrutura_banner_equipe_home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    border-radius: 0 0 50px 50px;
+    background-color: var(--solarbens-white);
+}
+
+.home_fourth-section-subcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.home_fourth-section-title h1 {
+    margin-bottom: 50px;
+}
+
+.home_fourth-section-title h1 {
+    font-size: 2.8rem;
+    color: var(--solarbens-white);
+    text-align: center;
+}
+
+.home_fourth-section-button {
+    width: 230px;
+    font-weight: 600;
+}

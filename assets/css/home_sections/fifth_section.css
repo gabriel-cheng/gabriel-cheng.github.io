@@ -1,0 +1,104 @@
+.home_fifth-section-container {
+    background-image: url("../../images/backgrounds/solarbens_estrutura_mirassol_home_bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--solarbens-white);
+    padding-top: 30px;
+    margin-top: 30px;
+    background-color: var(--solarbens-white);
+}
+
+.home_fifth-section-title h1 {
+    margin-bottom: 40px;
+}
+
+.home_fifth-section-title h1 {
+    text-align: center;
+}
+
+.home_fifth-section-title h1 {
+    font-size: 2.5rem;
+}
+
+/* Carousel */
+.home_fifth-section-carousel img {
+    max-width: 550px;
+    width: 100%;
+}
+/* End Carousel */
+
+.home_fifth-section-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home_fifth-section-info-box {
+    border-left: 1px solid var(--solarbens-base);
+    border-top: 1px solid var(--solarbens-base);
+    border-right: 1px solid var(--solarbens-base);
+    border-radius: 30px;
+    max-width: 400px;
+    width: 100%;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.home_fifth-section-info-text {
+    padding: 40px;
+}
+
+.home_fifth-section-info-title h2 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 2px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.home_fifth-section-info-subtitle h1 {
+    font-size: 2.3rem;
+}
+
+.home_fifth-section-info-list ul {
+    list-style-type: none;
+}
+
+.home_fifth-section-info-list
+ul
+li {
+    font-size: 0.9rem;
+}
+
+.home_fifth-section-info-list
+ul
+li
+span {
+    font-weight: 600;
+}
+
+.home_fifth-section-info-button
+a
+button {
+    background-color: var(--solarbens-base);
+    border: none;
+    outline: 0;
+    width: 100%;
+    height: 100px;
+    border-radius: 0 0 20px 20px;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.home_fifth-section-info-button
+a
+button:hover {
+    background-color: var(--solarbens-base-hover);
+    transition: .2s ease-in-out;
+}

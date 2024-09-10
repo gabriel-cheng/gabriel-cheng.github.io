@@ -2,6 +2,8 @@
 @import url("./home_sections/section_imports.css");
 @import url("./partials/header.css");
 @import url("./partials/footer.css");
+@import url("./orçamento/orcamento.css");
+@import url("./portfolio/portfolio.css");
 
 :root {
     --solarbens-black: #000;

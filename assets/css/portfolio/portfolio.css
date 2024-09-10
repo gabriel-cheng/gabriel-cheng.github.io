@@ -1,0 +1,117 @@
+.portf_description-subcontainer {
+    padding-top: 60px;
+}
+
+.protf_title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.protf_title h1 {
+    font-size: 3.2rem;
+}
+
+.portf_description {
+    text-align: center;
+}
+
+.portf_cards-container {
+    padding: 60px 0;
+}
+
+.portf_cards-subcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.portf_card {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 350px;
+    width: 100%;
+    max-height: 550px;
+    height: 450px;
+    border: 2px solid var(--solarbens-base);
+    border-radius: 20px;
+}
+
+.portf_card-content {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 40px;
+    opacity: 0;
+    transition: .2s ease-in-out;
+}
+
+.portf_card:hover .portf_card-content {
+    background-color: rgba(0, 0, 0, 0.555);
+    transition: .2s ease-in-out;
+    opacity: 100%;
+}
+
+.portf_card-title h1 {
+    color: var(--solarbens-base);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+.portf_card-info p {
+    color: var(--solarbens-white);
+    font-size: 0.9rem;
+}
+
+.portf_card-info
+p
+span {
+    color: var(--solarbens-base);
+}
+
+.portf_card-button 
+a
+button {
+    width: 180px;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.portf_info-container {
+    background-image: url("../../images/backgrounds/solarbens_interna_bg_cta_serviços.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.portf_info-container {
+    padding: 60px 0;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.portf_info-text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.portf_info-text p {
+    color: var(--solarbens-white);
+    font-size: 1.7rem;
+}
+
+.portf_info-button {
+    display: flex;
+    justify-content: center;
+}
+
+.portf_info-button
+a
+button {
+    width: 450px;
+}

@@ -27,6 +27,23 @@
 .header_list-options li {
     margin: 0;
     text-wrap: nowrap;
+    position: relative;
+}
+
+.header_list-options li::after {
+    content: "";
+    height: 1.5px;
+    width: 0;
+    background-color: var(--solarbens-base);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: .3s ease-in-out;
+}
+
+.header_list-options li:hover::after {
+    width: 100%;
+    transition: .3s ease-in-out;
 }
 
 .header_list-options li a {

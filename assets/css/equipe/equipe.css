@@ -27,7 +27,7 @@
 .team_employee-info {
     display: flex;
     flex-direction: column;
-    background-color: var(--solarbens-base-hover);
+    background-color: var(--solarbens-smoth);
     width: 290px;
     height: 400px;
     padding: 40px 30px;

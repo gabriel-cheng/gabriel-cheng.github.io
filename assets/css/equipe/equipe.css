@@ -34,8 +34,8 @@
     gap: 10px;
 }
 
-.team_employee-apresent {
-    line-height: 18px;
+.team_employee-apresent h3 {
+    line-height: 20px;
 }
 
 .team_employee-apresent p {

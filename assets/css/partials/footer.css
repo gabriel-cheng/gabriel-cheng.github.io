@@ -29,6 +29,10 @@
     gap: 8px;
 }
 
+.footer_content-list a {
+    width: fit-content;
+}
+
 .footer_content-list li {
     color: white;
     text-transform: uppercase;

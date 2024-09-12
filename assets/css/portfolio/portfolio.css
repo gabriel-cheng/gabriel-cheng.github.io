@@ -44,11 +44,23 @@
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    gap: 10px;
+    justify-content: space-between;
     padding: 40px;
     opacity: 0;
     transition: .2s ease-in-out;
+}
+
+.portf_card-type p {
+    color: var(--solarbens-base);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.protf_card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .portf_card:hover .portf_card-content {

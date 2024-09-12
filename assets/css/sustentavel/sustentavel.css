@@ -1,0 +1,49 @@
+.sust_main-subcontainer {
+    display: grid;
+    grid-template-areas:
+        "title img2"
+        "text  img2"
+        "img1  img2"
+    ;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.sust_main-title {
+    grid-area: title;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sust_main-title h1 {
+    font-size: 3.5rem;
+}
+
+.sust_main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    grid-area: text;
+}
+
+.sust_main-img1 {
+    grid-area: img1;
+}
+
+.sust_main-img1 img {
+    max-width: 750px;
+    width: 100%;
+}
+
+.sust_main-img2 {
+    grid-area: img2;
+}
+
+.sust_main-img2 img {
+    max-width: 380px;
+    width: 100%;
+    height: 100%;
+}
+

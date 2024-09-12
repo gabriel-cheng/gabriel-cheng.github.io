@@ -4,6 +4,11 @@
 @import url("./partials/footer.css");
 @import url("./orçamento/orcamento.css");
 @import url("./portfolio/portfolio.css");
+@import url("./serviços/servicos.css");
+@import url("./institucional/institucional.css");
+@import url("./sustentavel/sustentavel.css");
+@import url("./contato/contato.css");
+@import url("./equipe/equipe.css");
 
 :root {
     --solarbens-black: #000;

@@ -1,0 +1,64 @@
+.team_main-subcontainer {
+    padding: 60px 0;
+}
+
+.team_content-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.team_content-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.team_content-card {
+    display: flex;
+}
+
+.team_employee-image img {
+    width: 300px;
+    height: 400px;
+}
+
+.team_employee-info {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--solarbens-base-hover);
+    width: 290px;
+    height: 400px;
+    padding: 40px 30px;
+    gap: 10px;
+}
+
+.team_employee-apresent {
+    line-height: 18px;
+}
+
+.team_employee-apresent p {
+    text-transform: uppercase;
+}
+
+.team_employee-optional-desc p {
+    font-size: 0.8rem;
+    line-height: 17px;
+}
+
+.team_employee-social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.team_employee-social-icon
+a
+img {
+    width: 25px;
+}
+
+.team_card-reverse {
+    flex-direction: row-reverse;
+}

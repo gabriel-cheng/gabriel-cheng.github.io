@@ -1,0 +1,52 @@
+.serv_main-subcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 60px;
+}
+
+.serv_card {
+    display: grid;
+    grid-template-areas:
+        "img title"
+        "img text"
+    ;
+    column-gap: 40px;
+    justify-content: center;
+}
+
+.serv_card--reverse {
+    grid-template-areas:
+        "title img"
+        "text img"
+    ;
+}
+
+.serv_card-image {
+    grid-area: img;
+}
+
+.serv_card-image img {
+    width: 100%;
+    height: 350px;
+    border-radius: 25px;
+    border: 2px solid var(--solarbens-base);
+}
+
+.serv_card-title {
+    grid-area: title;
+    font-weight: 400;
+    display: flex;
+    align-items: flex-end;
+}
+
+.serv_card-title h1 {
+    font-size: 2.8rem;
+}
+
+.serv_card-text {
+    grid-area: text;
+    width: 100%;
+    max-width: 550px;
+}

@@ -1,0 +1,47 @@
+.ctt_main-subcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 0;
+}
+
+.ctt_content-container {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ctt_content-title h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.ctt_content-subtitle p {
+    font-weight: 700;
+}
+
+.ctt_content-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ctt_content-info p {
+    font-size: 0.9rem;
+}
+
+.ctt_info-button
+a
+button {
+    width: 230px;
+    font-weight: 600;
+}
+
+.ctt_address {
+    color: var(--solarbens-strong-gray) !important;
+}
+
+.ctt_number {
+    color: var(--solarbens-strong-gray) !important;
+}

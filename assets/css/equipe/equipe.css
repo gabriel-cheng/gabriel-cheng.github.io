@@ -5,6 +5,13 @@
 .team_content-title {
     text-align: center;
     margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.team_content-title h1 {
+    max-width: 940px;
+    width: 100%;
 }
 
 .team_content-cards-container {
@@ -61,4 +68,36 @@ img {
 
 .team_card-reverse {
     flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 824px) {
+    .team_content-title h1 {
+        font-size: 4.8vw;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .team_content-card {
+        flex-direction: column;
+    }
+
+    .team_employee-info {
+        width: 100%;
+    }
+
+    .team_employee-image img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .team_employee-info,
+    .team_employee-image img {
+        max-width: 370px;
+    }
+}
+
+@media screen and (max-width: 462px) {
+    .team_content-title h1 {
+        font-size: 4.5vw;
+    }
 }

@@ -112,6 +112,31 @@ a {
     cursor: pointer;
 }
 
+.header_inst-list {
+    list-style-type: none;
+    background-color: var(--solarbens-white);
+    position: absolute;
+    top: 20px;
+    display: none;
+}
+
+.header_inst-list li {
+    padding: 20px;
+}
+
+.header_inst-list li:hover {
+    background-color: var(--solarbens-base-hover);
+}
+
+.header_inst-list li::after {
+    width: 0;
+    height: 0;
+}
+
+.header_list-options > li:hover .header_inst-list {
+    display: block;
+}
+
 @media screen and (max-width: 1020px) {
     .mobile_container {
         display: initial;

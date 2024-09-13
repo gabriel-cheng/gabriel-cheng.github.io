@@ -18,6 +18,7 @@
 
 .sust_main-title h1 {
     font-size: 3.5rem;
+    line-height: 60px;
 }
 
 .sust_main-text {
@@ -26,6 +27,7 @@
     gap: 20px;
     max-width: 600px;
     grid-area: text;
+    margin-top: 20px;
 }
 
 .sust_main-img1 {
@@ -47,3 +49,49 @@
     height: 100%;
 }
 
+@media screen and (max-width: 1000px) {
+    .sust_main-subcontainer {
+        display: grid;
+        grid-template-areas:
+            "title"
+            "img1"
+            "text"
+            "img2"
+        ;
+        justify-content: center;
+        padding: 60px 0;
+        gap: 30px;
+    }
+
+    .sust_main-title {
+        justify-content: center;
+    }
+
+    .sust_main-title h1 {
+        line-height: 40px;
+    }
+
+    .sust_main-text {
+        max-width: 100%;
+    }
+
+    .sust_main-img1,
+    .sust_main-img2 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .sust_main-title h1 {
+        font-size: 7vw;
+        text-align: center;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .sust_main-title h1 {
+        line-height: 25px;
+    }
+}

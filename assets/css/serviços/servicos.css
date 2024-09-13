@@ -29,7 +29,7 @@
 
 .serv_card-image img {
     width: 100%;
-    height: 350px;
+    max-height: 350px;
     border-radius: 25px;
     border: 2px solid var(--solarbens-base);
 }
@@ -49,4 +49,26 @@
     grid-area: text;
     width: 100%;
     max-width: 550px;
+}
+
+@media screen and (max-width: 1082px) {
+    .serv_card {
+        display: grid;
+        grid-template-areas:
+            "title"
+            "img"
+            "text";
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .serv_card-title {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .serv_card-title h1 {
+        font-size: 7vw;
+    }
 }

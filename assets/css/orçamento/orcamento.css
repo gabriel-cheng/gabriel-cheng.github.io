@@ -14,10 +14,7 @@
 
 .orcamento_fir-title h1 {
     font-size: 2.6rem;
-}
-
-.orcamento_card-container {
-    display: flex;
+    line-height: 40px;
 }
 
 .orcamento_card-title {
@@ -40,6 +37,7 @@
 .orcamento_card-container {
     border: 2px solid var(--solarbens-base);
     border-radius: 25px;
+    display: flex;
 }
 
 .orcamento_card-content
@@ -76,6 +74,8 @@ span {
     line-height: 70px;
     font-size: 4.5rem;
     text-transform: uppercase;
+    max-width: 600px;
+    width: 100%;
 }
 
 .orcamento_sec-content {
@@ -116,4 +116,90 @@ button {
     border-radius: 50px;
     font-weight: 600;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 1190px) {
+    .orcamento_sec-title h1 {
+        font-size: 5vw;
+        line-height: 50px;
+    }
+
+    /* .orcamento_card-title h1 {
+        font-weight: 700;
+        font-size: 5rem;
+        line-height: 65px;
+        text-transform: uppercase;
+    } */
+}
+
+@media screen and (max-width: 950px) {
+    .orcamento_card-container {
+        flex-direction: column;
+    }
+    
+    .orcamento_card-title {
+        border-bottom: 2px solid var(--solarbens-base);
+        border-right: none;
+        border-radius: 25px;
+    }
+    
+    .orcamento_sec-subcontainer {
+        flex-direction: column;
+        width: fit-content;
+    }
+
+    .orcamento_sec-content {
+        border-top: 2px solid var(--solarbens-base);
+        border-left: none;
+        padding: 40px;
+        border-radius: 20px;
+        width: 100%;
+    }
+
+    .orcamento_sec-title h1 {
+        max-width: 100%;
+        text-align: center;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 835px) {
+    .orcamento_card-title h1 {
+        font-size: 8vw;
+        line-height: 30px;
+    }
+
+    .orcamento_sec-button 
+    a
+    button {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 566px) {
+    .orcamento_sec-title h1 {
+        line-height: 30px;
+    }
+
+    .orcamento_sec-button  {
+        display: flex;
+        justify-content: center;
+    }
+
+    .orcamento_sec-button 
+    a {
+        font-size: 0.8rem;
+        width: 80%;
+    }
+
+    .orcamento_fir-title h1 {
+        font-size: 7vw;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .orcamento_card-title {
+        padding: 30px 0;
+    }
 }

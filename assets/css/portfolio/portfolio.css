@@ -127,3 +127,23 @@ a
 button {
     width: 450px;
 }
+
+@media screen and (max-width: 555px) {
+    .portf_info-text p {
+        font-size: calc(1vw + 20px);
+    }
+
+    .portf_info-button
+    a
+    button {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .portf_info-button
+    a
+    button {
+        width: 310px;
+    }
+}

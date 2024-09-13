@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./assets/css/index.css">
     <script src="./assets/scripts/footer_date.js" defer></script>
     <script src="./assets/scripts/mirassol_carousel.js" defer></script>
+    <script src="./assets/scripts/toggle.js" defer></script>
 </head>
 <body>
     <header class="main_container-pre_config header_main-container">
@@ -24,10 +25,18 @@
                 <li><a href="/equipe.html">Equipe</a></li>
                 <li><a href="/contato.html">Fale conosco</a></li>
             </ul>
+            <div class="toggle_close">X</div>
             <div class="header_button-container">
                 <a href="/orcamento.html">
                     <button class="solarbens_button-pre_config">Solicite um estudo <br> personalizado</button>
                 </a>
+            </div>
+            <div class="mobile_container">
+                <div class="mobile_toggle-container">
+                    <div class="toggle"></div>
+                    <div class="toggle"></div>
+                    <div class="toggle"></div>
+                </div>
             </div>
         </div>
     </header>
@@ -37,10 +46,10 @@
         style="background-image: url('./assets/images/backgrounds/solarbens_estrutura_banner_home.png');" class="home_fir-section-container">
             <div class="general_subcontainer-pre_config home_fir-section-subcontainer">
                 <div class="home_fir-section-text">
-                    <h1>Do projeto à viabilização de crédito, nós somos <br> a solução completa para sua usina solar.</h1>
+                    <h1>Do projeto à viabilização de crédito, nós somos a solução completa para sua usina solar.</h1>
                 </div>
                 <div class="home_fir-section-button">
-                    <a href="">
+                    <a href="/institucional.html">
                         <button class="solarbens_button-pre_config">Conheça a Solarbens</button>
                     </a>
                 </div>
@@ -55,7 +64,7 @@
                     </div>
                     <div class="home_sec-section-text">
                         <p>
-                            Com quase uma década no ramo de energia fotovoltaica, temos orgulho <br> de nossas conquistas ao longo desses anos.
+                            Com quase uma década no ramo de energia fotovoltaica, temos orgulho de nossas conquistas ao longo desses anos.
                         </p>
                     </div>
                     <div class="home_sec-section-cards-container">
@@ -124,11 +133,12 @@
             </div>
         </section>
 
+        
         <section class="main_container-pre_config home_thr-section-container">
             <div class="general_subcontainer-pre_config home_thr-section-subcontainer">
                 <div class="home_thr-section-content">
                     <div class="home_thr-section-title">
-                        <h1>Prazer, somos <br> a Solarbens</h1>
+                        <h1>Prazer, somos a Solarbens</h1>
                     </div>
                     <div class="home_thr-section-text">
                         <p>
@@ -136,7 +146,7 @@
                         </p>
                     </div>
                     <div class="home_thr-section-button-container">
-                        <a href="">
+                        <a href="/institucional.html">
                             <button class="solarbens_button-pre_config home_thr-section-button">Leia mais</button>
                         </a>
                     </div>
@@ -151,13 +161,11 @@
             <div class="general_subcontainer-pre_config home_fourth-section-subcontainer">
                 <div class="home_fourth-section-title">
                     <h1>
-                        Temos um ecossistema de talentos <br> 
-                        experientes e parceiros estratégicos, prontos <br> 
-                        para quaisquer desafios
+                        Temos um ecossistema de talentos experientes e parceiros estratégicos, prontos para quaisquer desafios
                     </h1>
                 </div>
                 <div class="home_fourth-section-button">
-                    <a href="">
+                    <a href="/equipe.html">
                         <button class="solarbens_button-pre_config home_fourth-section-button">Conheça nossa equipe</button>
                     </a>
                 </div>
@@ -168,30 +176,26 @@
             <div class="general_subcontainer-pre_config home_fifth-section-subcontainer">
                 <div class="home_fifth-section-title">
                     <h1>
-                        Nossa maior potência em geração <br> 
-                        de energia: mais de <span>2.000.000 kWh/ano</span>
+                        Nossa maior potência em geração de energia: mais de <span>2.000.000 kWh/ano</span>
                     </h1>
                 </div>
                 <div class="home_fifth-section-images">
                     <div class="home_fifth-section-carousel">
                         <div class="home_fifth-carousel-inner">
                             <div class="home_fifth-carousel-item active">
-                                <img src="./assets/images/backgrounds/carousel-1/img-1.png" alt="">
+                                <img src="./assets/images/backgrounds/carousel-1/img-1.jpg" alt="">
                             </div>
                             <div class="home_fifth-carousel-item active">
-                                <img src="./assets/images/backgrounds/carousel-1/img-2.png" alt="">
+                                <img src="./assets/images/backgrounds/carousel-1/img-2.jpg" alt="">
                             </div>
                             <div class="home_fifth-carousel-item active">
-                                <img src="./assets/images/backgrounds/carousel-1/img-3.png" alt="">
+                                <img src="./assets/images/backgrounds/carousel-1/img-3.jpg" alt="">
                             </div>
                             <div class="home_fifth-carousel-item active">
-                                <img src="./assets/images/backgrounds/carousel-1/img-4.png" alt="">
+                                <img src="./assets/images/backgrounds/carousel-1/img-4.jpg" alt="">
                             </div>
                             <div class="home_fifth-carousel-item active">
-                                <img src="./assets/images/backgrounds/carousel-1/img-5.png" alt="">
-                            </div>
-                            <div class="home_fifth-carousel-item active">
-                                <img src="./assets/images/backgrounds/carousel-1/img-6.png" alt="">
+                                <img src="./assets/images/backgrounds/carousel-1/img-5.jpg" alt="">
                             </div>
                         </div>
                         <div class="home_fifth-carousel-control home_fifth-carousel-prev"><p>❮</p></div>
@@ -224,116 +228,6 @@
             </div>
         </section>
 
-    <!--
-        <section class="main_container-pre_config home_sixth-section-container">
-            <div class="general_subcontainer-pre_config home_sixth-section-subcontainer">
-                <div class="home_sixth-section-title">
-                    <h1>Nossos projetos vão de acordo <br> com a sua necessidade</h1>
-                </div>
-                <div class="home_sixth-section-subtitle">
-                    <p>Cada projeto é cuidadosamente projetado e executado para maximizar o retorno do investimento, garantindo a confiança e satisfação dos nossos clientes</p>
-                </div>
-                <div class="home_sixth-section-carousel">
-                    <div class="home_sixth-carousel-inner">
-                        <div class="home_sixth-carousel-item active">
-                            <div class="home_sixth-carousel-card">
-                                <div class="home_sixth-carousel-image">
-                                    <img src="./assets/images/backgrounds/carousel-2/solarbens_estrutura_obra01_home.png" alt="Carousel 2 structure picture">
-                                </div>
-                                <div class="home_sixth-card-container">
-                                    <div class="home_sixth-card-content">
-                                        <div class="home_sixth-card-title">
-                                            <h1>Carport - Prever Rio Preto</h1>
-                                        </div>
-                                        <div class="home_sixth-card-infos">
-                                            <p><span>❯</span> 518 painéis jasolar 540w</p>
-                                            <p><span>❯</span> 3 inversores SolarEdge SE75K</p>
-                                        </div>
-                                        <div class="home_sixth-card-button">
-                                            <a href="">
-                                                <button class="solarbens_button-pre_config">Ver obra completa</button>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="home_sixth-carousel-item">
-                            <div class="home_sixth-carousel-card">
-                                <div class="home_sixth-carousel-image">
-                                    <img src="./assets/images/backgrounds/carousel-2/solarbens_estrutura_obra01_home.png" alt="Carousel 2 structure picture">
-                                </div>
-                                <div class="home_sixth-card-container">
-                                    <div class="home_sixth-card-content">
-                                        <div class="home_sixth-card-title">
-                                            <h1>Carport - Prever Rio Preto</h1>
-                                        </div>
-                                        <div class="home_sixth-card-infos">
-                                            <p><span>❯</span> 518 painéis jasolar 540w</p>
-                                            <p><span>❯</span> 3 inversores SolarEdge SE75K</p>
-                                        </div>
-                                        <div class="home_sixth-card-button">
-                                            <a href="">
-                                                <button class="solarbens_button-pre_config">Ver obra completa</button>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="home_sixth-carousel-item">
-                            <div class="home_sixth-carousel-card">
-                                <div class="home_sixth-carousel-image">
-                                    <img src="./assets/images/backgrounds/carousel-2/solarbens_estrutura_obra01_home.png" alt="Carousel 2 structure picture">
-                                </div>
-                                <div class="home_sixth-card-container">
-                                    <div class="home_sixth-card-content">
-                                        <div class="home_sixth-card-title">
-                                            <h1>Carport - Prever Rio Preto</h1>
-                                        </div>
-                                        <div class="home_sixth-card-infos">
-                                            <p><span>❯</span> 518 painéis jasolar 540w</p>
-                                            <p><span>❯</span> 3 inversores SolarEdge SE75K</p>
-                                        </div>
-                                        <div class="home_sixth-card-button">
-                                            <a href="">
-                                                <button class="solarbens_button-pre_config">Ver obra completa</button>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="home_sixth-carousel-item">
-                            <div class="home_sixth-carousel-card">
-                                <div class="home_sixth-carousel-image">
-                                    <img src="./assets/images/backgrounds/carousel-2/solarbens_estrutura_obra01_home.png" alt="Carousel 2 structure picture">
-                                </div>
-                                <div class="home_sixth-card-container">
-                                    <div class="home_sixth-card-content">
-                                        <div class="home_sixth-card-title">
-                                            <h1>Carport - Prever Rio Preto</h1>
-                                        </div>
-                                        <div class="home_sixth-card-infos">
-                                            <p><span>❯</span> 518 painéis jasolar 540w</p>
-                                            <p><span>❯</span> 3 inversores SolarEdge SE75K</p>
-                                        </div>
-                                        <div class="home_sixth-card-button">
-                                            <a href="">
-                                                <button class="solarbens_button-pre_config">Ver obra completa</button>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="home_sixth-carousel-control home_sixth-carousel-prev"><p>❮</p></div>
-                    <div class="home_sixth-carousel-control home_sixth-carousel-next"><p>❯</p></div>
-                </div>
-            </div>
-        </section>
-    -->
         <section class="main_container-pre_config home_seventh-section-container">
             <div class="general_subcontainer-pre_config home_seventh-section-subcontainer">
                 <div class="home_seventh-content-title">
@@ -347,7 +241,7 @@
                     </div>
                 </div>
                 <div class="home_seventh-content-button">
-                    <a href="">
+                    <a href="/orcamento.html">
                         <button class="solarbens_button-pre_config">Solicite já um orçamento</button>
                     </a>
                 </div>
@@ -412,7 +306,7 @@
                             <h3>Tem alguma dúvida? <br> Quer saber mais sobre nossos serviços?</h3>
                         </div>
                         <div class="home_heighth-text-text-1">
-                            <p>Nos faça uma visita ou entre em contato conosco através do <br> nossos WhatsApp!</p>
+                            <p>Nos faça uma visita ou entre em contato conosco através do nossos WhatsApp!</p>
                         </div>
                         <div class="home_heighth-text-button">
                             <a href="">
@@ -421,7 +315,7 @@
                         </div>
                         <div class="home_heighth-text-2">
                             <p>
-                                Nossos especialistas estão à disposição para tirar todas as <br> suas dúvidas e encontrar a melhor solução em energia solar <br> de forma personalizada e de acordo com sua necessidade.
+                                Nossos especialistas estão à disposição para tirar todas as suas dúvidas e encontrar a melhor solução em energia solar de forma personalizada e de acordo com sua necessidade.
                             </p>
                         </div>
                     </div>
@@ -430,7 +324,6 @@
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.588740413377!2d-50.440985025051596!3d-21.20849027939058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x949643e4529b7c5d%3A0xbbe96f8c98663690!2sR.%20Luiz%20Pereira%20Barreto%2C%20191%20-%20Vila%20Bandeirantes%2C%20Ara%C3%A7atuba%20-%20SP%2C%2016010-320!5e0!3m2!1spt-BR!2sbr!4v1721067318735!5m2!1spt-BR!2sbr"
                                 class="contact-details__map" allowfullscreen>
-
                             </iframe>
                         </div>
                         <div class="home_heighth-address">

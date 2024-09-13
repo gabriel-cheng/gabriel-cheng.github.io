@@ -7,6 +7,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 60px 0;
+    gap: 30px;
 }
 
 .footer_content-container {
@@ -72,4 +73,39 @@
 
 #footer_date {
     color: var(--solarbens-base);
+}
+
+@media screen and (max-width: 817px) {
+    .footer_main-subcontainer {
+        flex-direction: column;
+    }
+
+    .footer_content-container {
+        width: 100%;
+        max-width: 486px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .footer_content-container {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer_content-social {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .footer_content-list li {
+        width: 100%;
+    }
+
+    .footer_content-list {
+        display: initial;
+    }
+
+    .footer_logo-container img {
+        width: 100%;
+    }
 }

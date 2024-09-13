@@ -9,12 +9,25 @@
 
 .home_sec-section-title {
     text-align: center;
-    font-size: 2rem;
+}
+
+.home_sec-section-title h1 {
+    font-size: calc(1vw + 30px);
+    line-height: 33px;
 }
 
 .home_sec-section-text {
     text-align: center;
-    margin-bottom: 20px;
+    margin: 30px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.home_sec-section-text p {
+    max-width: 600px;
+    width: 100%;
+    line-height: 15px;
 }
 
 .home_sec-section-cards-container {
@@ -37,4 +50,20 @@
 
 .home_sec-section-card-text p {
     font-size: 0.8rem;
+}
+
+@media screen and (max-width: 600px) {
+    .home_sec-section-card {
+        flex-direction: column;
+    }
+
+    .home_sec-section-card-text {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .home_sec-section-title h1 {
+        font-size: calc(1vw + 23px);
+    }
 }

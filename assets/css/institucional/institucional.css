@@ -90,6 +90,8 @@
 .inst_innv-title h1 {
     font-size: 3rem;
     line-height: 45px;
+    max-width: 294px;
+    width: 100%;
 }
 
 .inst_innv-text {
@@ -114,7 +116,7 @@
     display: flex;
     justify-content: space-evenly;
     padding: 60px 0;
-    gap: 20px;
+    column-gap: 20px;
     flex-wrap: wrap;
     
 }
@@ -161,9 +163,100 @@ img {
 
 .inst_mvv-title h1 {
     line-height: 40px;
+
 }
 
 .inst_mvv-title h1 {
     font-size: 2.7rem;
 }
 
+@media screen and (max-width: 1000px) {
+    .inst_subcontainer {
+        grid-template-areas:
+            "title"
+            "img"
+            "txt"
+        ;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .inst_title h1 {
+        text-align: center;
+        font-size: 7vw;
+    }
+
+    .inst_image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .inst_image img {
+        width: 70%;
+        max-width: 500px;
+    }
+
+    .inst_text {
+        max-width: 100%;
+    }
+
+    .inst_text p {
+        font-size: calc(1vw + 10px);
+    }
+
+    .inst_differential-subcontainer {
+        grid-template-areas:
+            "title"
+            "img"
+            "text"
+        ;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .inst_differential-title {
+        display: initial;
+        text-align: center;
+    }
+
+    .inst_differential-text {
+        max-width: 100%;
+    }
+
+    .inst_differential-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .inst_innv-subcontainer {
+        grid-template-areas:
+            "title"
+            "img"
+            "text"
+        ;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .inst_innv-text {
+        max-width: 100%;
+    }
+
+    .inst_innv-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .inst_innv-title h1 {
+        max-width: 100%;
+    }
+
+    .inst_innv-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .inst_mvv-subcontainer {
+        row-gap: 90px;
+    }
+}

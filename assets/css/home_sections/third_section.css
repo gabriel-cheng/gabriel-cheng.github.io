@@ -19,10 +19,15 @@
 
 .home_thr-section-title {
     grid-area: title;
-    font-size: 2rem;
     color: var(--solarbens-black);
     margin-bottom: 20px;
     line-height: 60px;
+}
+
+.home_thr-section-title h1 {
+    max-width: 350px;
+    width: 100%;
+    font-size: 3rem;
 }
 
 .home_thr-section-text {
@@ -48,4 +53,54 @@
 .home_thr-section-button {
     width: 160px;
     font-weight: 600;
+}
+
+@media screen and (max-width: 1000px) {
+    .home_thr-section-text p {
+        font-size: calc(1vw + 6px);
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .home_thr-section-content {
+        grid-template-areas:
+            "title"
+            "img"
+            "txt"
+            "btn"
+        ;
+        row-gap: 15px;
+        justify-content: center;
+    }
+    
+    .home_thr-section-button-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home_thr-section-button {
+        width: 70vw;
+    }
+
+    .home_thr-section-text p {
+        font-size: 16px;
+    }
+
+    .home_thr-section-title h1 {
+        margin-bottom: 30px;
+    }
+
+    .home_thr-section-title h1 {
+        line-height: 45px;
+    }
+
+    .home_thr-section-container {
+        background-image: none;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .home_thr-section-title h1 {
+        font-size: calc(2vw + 30px);
+    }
 }

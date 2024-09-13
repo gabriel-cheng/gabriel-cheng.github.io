@@ -8,16 +8,17 @@
     background-color: var(--solarbens-white);
 }
 
-.home_fifth-section-title h1 {
-    margin-bottom: 40px;
+.home_fifth-section-title {
+    display: flex;
+    justify-content: center;
 }
 
 .home_fifth-section-title h1 {
     text-align: center;
-}
-
-.home_fifth-section-title h1 {
+    margin-bottom: 40px;
     font-size: 2.5rem;
+    max-width: 800px;
+    width: 100%;
 }
 
 /* Carousel */
@@ -41,6 +42,7 @@
 .home_fifth-section-carousel img {
     width: 100%;
     display: block;
+    border-radius: 25px;
 }
 
 .home_fifth-carousel-control {
@@ -72,6 +74,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    gap: 20px;
 }
 
 .home_fifth-section-info-box {
@@ -142,4 +145,85 @@ a
 button:hover {
     background-color: var(--solarbens-base-hover);
     transition: .2s ease-in-out;
+}
+
+@media screen and (max-width: 988px) {
+    .home_fifth-section-container {
+        background-image: none;
+    }
+    .home_fifth-section-images {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .home_fifth-section-carousel {
+        max-width: 800px;
+    }
+
+    .home_fifth-section-info-box {
+        max-width: 800px;
+        height: 100%;
+    }
+
+    .home_fifth-section-info-title h2 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .home_fifth-section-info-subtitle h1 {
+        font-size: 4rem;
+    }
+
+    .home_fifth-section-info-text {
+        text-align: center;
+    }
+
+    .home_fifth-section-info-list
+    ul
+    li {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 839px) {
+    .home_fifth-section-title h1 {
+        font-size: calc(2vw + 20px);
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .home_fifth-section-info-title h2 {
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    .home_fifth-section-info-subtitle h1 {
+        font-size: 8vw;
+    }
+
+    .home_fifth-section-info-text {
+        text-align: center;
+    }
+
+    .home_fifth-section-info-list
+    ul
+    li {
+        font-size: calc(1vw + 9px);
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .home_fifth-section-title h1 {
+        font-size: calc(2vw + 15px);
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .home_fifth-section-info-list
+    ul
+    li {
+        font-size: calc(1vw + 7px);
+    }
 }

@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: column;
     background-color: var(--solarbens-smooth);
-    width: 290px;
+    width: 270px;
     height: 400px;
     padding: 40px 30px;
     gap: 10px;

@@ -45,6 +45,8 @@ body {
 .general_subcontainer-pre_config {
     max-width: 1200px;
     width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 a {

@@ -147,6 +147,46 @@ button:hover {
     transition: .2s ease-in-out;
 }
 
+.home_fifth-section-subcontainer {
+    padding-bottom: 60px;
+}
+
+.home_mirassol_carousel_exapanded-button {
+    padding-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.home_mirassol_carousel_exapanded-button button {
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.home_mirassol_carousel_exapanded-title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.home_mirassol_carousel_exapanded-title h1 {
+    font-size: calc(1vw + 30px);
+    width: 800px;
+    line-height: 55px;
+}
+
+.home_mirassol_carousel_exapanded-description {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.home_mirassol_carousel_exapanded-description p {
+    width: 700px;
+}
+
 @media screen and (max-width: 988px) {
     .home_fifth-section-container {
         background-image: none;

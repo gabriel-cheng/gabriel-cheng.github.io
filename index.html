@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solarbens | Energia Fotovoltaica</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="shortcut icon" href="/assets/images/icons/favicon-solarbens.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <script src="./assets/scripts/footer_date.js" defer></script>
     <script src="./assets/scripts/mirassol_carousel.js" defer></script>
     <script src="./assets/scripts/toggle.js" defer></script>
+    <script src="./assets/scripts/header_bg-change.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="../assets/scripts/swiper_slider.js" defer></script>
 </head>
+
 <body>
     <header class="main_container-pre_config header_main-container">
         <div class="general_subcontainer-pre_config header_main-subcontainer">
@@ -19,18 +27,22 @@
                 </a>
             </div>
             <ul class="header_list-options">
-                <li><a href="/institucional.html">
+                <li class="header_list-item-inst">
                     Institucional
+                    <span class="header_arrow-icon material-symbols-outlined">keyboard_arrow_right</span>
                     <ul class="header_inst-list">
+                        <a href="/sobre.html">
+                            <li>Sobre nós</li>
+                        </a>
                         <a href="/sustentavel.html">
                             <li>Sustentável</li>
                         </a>
                     </ul>
-                </a></li>
-                <li><a href="/portfolio.html">Portfólio de obras</a></li>
-                <li><a href="/servicos.html">Serviços</a></li>
-                <li><a href="/equipe.html">Equipe</a></li>
-                <li><a href="/contato.html">Fale conosco</a></li>
+                </li>
+                <li class="header_list-item"><a href="/portfolio.html">Portfólio de obras</a></li>
+                <li class="header_list-item"><a href="/servicos.html">Serviços</a></li>
+                <li class="header_list-item"><a href="/equipe.html">Equipe</a></li>
+                <li class="header_list-item"><a href="/contato.html">Fale conosco</a></li>
             </ul>
             <div class="toggle_close">X</div>
             <div class="header_button-container">
@@ -49,14 +61,14 @@
     </header>
 
     <main class="main_container-pre_config home_main-container">
-        <section 
-        style="background-image: url('./assets/images/backgrounds/solarbens_estrutura_banner_home.png');" class="home_fir-section-container">
+        <section style="background-image: url('./assets/images/backgrounds/solarbens_estrutura_banner_home.png');"
+            class="home_fir-section-container">
             <div class="general_subcontainer-pre_config home_fir-section-subcontainer">
                 <div class="home_fir-section-text">
                     <h1>Do projeto à viabilização de crédito, nós somos a solução completa para sua usina solar.</h1>
                 </div>
                 <div class="home_fir-section-button">
-                    <a href="/institucional.html">
+                    <a href="sobre.html">
                         <button class="solarbens_button-pre_config">Conheça a Solarbens</button>
                     </a>
                 </div>
@@ -71,23 +83,27 @@
                     </div>
                     <div class="home_sec-section-text">
                         <p>
-                            Com quase uma década no ramo de energia fotovoltaica, temos orgulho de nossas conquistas ao longo desses anos.
+                            Com quase uma década no ramo de energia fotovoltaica, temos orgulho de nossas conquistas ao
+                            longo desses anos.
                         </p>
                     </div>
                     <div class="home_sec-section-cards-container">
                         <div class="home_sec-section-card">
                             <div class="home_sec-section-card-image">
-                                <img src="./assets/images/icons/section-2-icons/icone_especialista.png" alt="Solar example icon">
+                                <img src="./assets/images/icons/section-2-icons/icone_especialista.png"
+                                    alt="Solar example icon">
                             </div>
                             <div class="home_sec-section-card-text">
                                 <p>
-                                    Especialistas em projetos de médio e grande porte, com mais de 7 anos de experiência no mercado de energia solar
+                                    Especialistas em projetos de médio e grande porte, com mais de 7 anos de experiência
+                                    no mercado de energia solar
                                 </p>
                             </div>
                         </div>
                         <div class="home_sec-section-card">
                             <div class="home_sec-section-card-image">
-                                <img src="./assets/images/icons/section-2-icons/icone_homologação.png" alt="Solar example icon">
+                                <img src="./assets/images/icons/section-2-icons/icone_homologação.png"
+                                    alt="Solar example icon">
                             </div>
                             <div class="home_sec-section-card-text">
                                 <p>
@@ -97,7 +113,8 @@
                         </div>
                         <div class="home_sec-section-card">
                             <div class="home_sec-section-card-image">
-                                <img src="./assets/images/icons/section-2-icons/icone_financiamento.png" alt="Solar example icon">
+                                <img src="./assets/images/icons/section-2-icons/icone_financiamento.png"
+                                    alt="Solar example icon">
                             </div>
                             <div class="home_sec-section-card-text">
                                 <p>
@@ -107,7 +124,8 @@
                         </div>
                         <div class="home_sec-section-card">
                             <div class="home_sec-section-card-image">
-                                <img src="./assets/images/icons/section-2-icons/icone_segurança.png" alt="Solar example icon">
+                                <img src="./assets/images/icons/section-2-icons/icone_segurança.png"
+                                    alt="Solar example icon">
                             </div>
                             <div class="home_sec-section-card-text">
                                 <p>
@@ -117,17 +135,19 @@
                         </div>
                         <div class="home_sec-section-card">
                             <div class="home_sec-section-card-image">
-                                <img src="./assets/images/icons/section-2-icons/icone_engenheiros.png" alt="Solar example icon">
+                                <img src="./assets/images/icons/section-2-icons/icone_engenheiros.png"
+                                    alt="Solar example icon">
                             </div>
                             <div class="home_sec-section-card-text">
                                 <p>
-                                    Equipe de consultores e engenheiros credenciados pelo ECORI
+                                    Equipe de consultores e engenheiros credenciados pela ECORI
                                 </p>
                             </div>
                         </div>
                         <div class="home_sec-section-card">
                             <div class="home_sec-section-card-image">
-                                <img src="./assets/images/icons/section-2-icons/icone_premio.png" alt="Solar example icon">
+                                <img src="./assets/images/icons/section-2-icons/icone_premio.png"
+                                    alt="Solar example icon">
                             </div>
                             <div class="home_sec-section-card-text">
                                 <p>
@@ -140,7 +160,7 @@
             </div>
         </section>
 
-        
+
         <section class="main_container-pre_config home_thr-section-container">
             <div class="general_subcontainer-pre_config home_thr-section-subcontainer">
                 <div class="home_thr-section-content">
@@ -149,11 +169,18 @@
                     </div>
                     <div class="home_thr-section-text">
                         <p>
-                            No coração de Araçatuba, São Paulo, nasceu uma visão de transformar o potencial da energia solar em realidade. Assim, em um dia ensolarado de 2012, surgiu a Solarbens EPC (Engenharia, Aquisição & Construção), uma empresa pioneira com um objetivo ambicioso: desenvolver e construir usinas de investimento para aqueles que compartilham nossa visão de um futuro mais sustentável. Nossa jornada começou com uma equipe dedicada de profissionais apaixonados pela energia solar, determinados a fazer a diferença no mundo. Formada por um ecossistema de talentos experientes e parceiros estratégicos, a Solarbens reuniu uma vasta expertise em engenharia, aquisição e construção.
+                            No coração de Araçatuba, São Paulo, nasceu uma visão de transformar o potencial da energia
+                            solar em realidade. Assim, em um dia ensolarado de 2012, surgiu a Solarbens EPC (Engenharia,
+                            Aquisição & Construção), uma empresa pioneira com um objetivo ambicioso: desenvolver e
+                            construir usinas de investimento para aqueles que compartilham nossa visão de um futuro mais
+                            sustentável. Nossa jornada começou com uma equipe dedicada de profissionais apaixonados pela
+                            energia solar, determinados a fazer a diferença no mundo. Formada por um ecossistema de
+                            talentos experientes e parceiros estratégicos, a Solarbens reuniu uma vasta expertise em
+                            engenharia, aquisição e construção.
                         </p>
                     </div>
                     <div class="home_thr-section-button-container">
-                        <a href="/institucional.html">
+                        <a href="sobre.html">
                             <button class="solarbens_button-pre_config home_thr-section-button">Leia mais</button>
                         </a>
                     </div>
@@ -168,12 +195,14 @@
             <div class="general_subcontainer-pre_config home_fourth-section-subcontainer">
                 <div class="home_fourth-section-title">
                     <h1>
-                        Temos um ecossistema de talentos experientes e parceiros estratégicos, prontos para quaisquer desafios
+                        Temos um ecossistema de talentos experientes e parceiros estratégicos, prontos para quaisquer
+                        desafios
                     </h1>
                 </div>
                 <div class="home_fourth-section-button">
                     <a href="/equipe.html">
-                        <button class="solarbens_button-pre_config home_fourth-section-button">Conheça nossa equipe</button>
+                        <button class="solarbens_button-pre_config home_fourth-section-button">Conheça nossa
+                            equipe</button>
                     </a>
                 </div>
             </div>
@@ -190,7 +219,7 @@
                     <div class="home_fifth-section-carousel">
                         <div class="home_fifth-carousel-inner">
                             <div class="home_fifth-carousel-item active">
-                                <img src="./assets/images/backgrounds/carousel-1/img-1.jpg" alt="">
+                                <img src="./assets/images/backgrounds/carousel-1/img-4.jpg" alt="">
                             </div>
                             <div class="home_fifth-carousel-item active">
                                 <img src="./assets/images/backgrounds/carousel-1/img-2.jpg" alt="">
@@ -199,14 +228,18 @@
                                 <img src="./assets/images/backgrounds/carousel-1/img-3.jpg" alt="">
                             </div>
                             <div class="home_fifth-carousel-item active">
-                                <img src="./assets/images/backgrounds/carousel-1/img-4.jpg" alt="">
+                                <img src="./assets/images/backgrounds/carousel-1/img-1.jpg" alt="">
                             </div>
                             <div class="home_fifth-carousel-item active">
                                 <img src="./assets/images/backgrounds/carousel-1/img-5.jpg" alt="">
                             </div>
                         </div>
-                        <div class="home_fifth-carousel-control home_fifth-carousel-prev"><p>❮</p></div>
-                        <div class="home_fifth-carousel-control home_fifth-carousel-next"><p>❯</p></div>
+                        <div class="home_fifth-carousel-control home_fifth-carousel-prev">
+                            <p>❮</p>
+                        </div>
+                        <div class="home_fifth-carousel-control home_fifth-carousel-next">
+                            <p>❯</p>
+                        </div>
                     </div>
                     <div class="home_fifth-section-info-box">
                         <div class="home_fifth-section-info-text">
@@ -235,6 +268,55 @@
             </div>
         </section>
 
+        <section class="main_container-pre_config slider_main-container">
+            <div class="general_subcontainer-pre_config slider_main-subcontainer">
+                <div class="home_mirassol_carousel_exapanded-text">
+                    <div class="home_mirassol_carousel_exapanded-title">
+                        <h1>Nossos projetos vão de acordo com a sua necessidade</h1>
+                    </div>
+                    <div class="home_mirassol_carousel_exapanded-description">
+                        <p>
+                            Cada projeto é cuidadosamente planejado e executado para maximizar o retorno do investimento, garantindo a confiança a satisfação dos nossos clientes
+                        </p>
+                    </div>
+                </div>
+                <div class="slider_container swiper">
+                    <div class="slider_subcontainer">
+                        <ul class="slider_card-list swiper-wrapper">
+                            <li class="slider_card-item swiper-slide">
+                                <img class="slider_card-image" src="./assets/images/backgrounds/portfolio/carport-rio-preto.png"
+                                    alt="Mirassol slider image">
+                            </li>
+                            <li class="slider_card-item swiper-slide">
+                                <img class="slider_card-image" src="./assets/images/backgrounds/portfolio/aguas-aragua.png"
+                                    alt="Mirassol slider image">
+                            </li>
+                            <li class="slider_card-item swiper-slide">
+                                <img class="slider_card-image" src="./assets/images/backgrounds/portfolio/agd-delfinopolis.png"
+                                    alt="Mirassol slider image">
+                            </li>
+                            <li class="slider_card-item swiper-slide">
+                                <img class="slider_card-image" src="./assets/images/backgrounds/portfolio/anbar-faceres.png"
+                                    alt="Mirassol slider image">
+                            </li>
+                            <li class="slider_card-item swiper-slide">
+                                <img class="slider_card-image" src="./assets/images/backgrounds/portfolio/meias-dallf.png"
+                                    alt="Mirassol slider image">
+                            </li>
+                        </ul>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <div class="home_mirassol_carousel_exapanded-button">
+                    <a href="/portfolio.html">
+                        <button class="solarbens_button-pre_config">Veja nosso portfólio completo</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
         <section class="main_container-pre_config home_seventh-section-container">
             <div class="general_subcontainer-pre_config home_seventh-section-subcontainer">
                 <div class="home_seventh-content-title">
@@ -243,7 +325,9 @@
                 <div class="home_seventh-content-text">
                     <div class="home_seventh-content-text-sub">
                         <p>
-                            Maximize a eficiência da sua usina solar com nossos serviços especializados. Quer prolongar a vida útil do seu sistema fotovoltaico e garantir a máxima geração de energia? Veja como a Solarbens pode te ajudar!
+                            Maximize a eficiência da sua usina solar com nossos serviços especializados. Quer prolongar
+                            a vida útil do seu sistema fotovoltaico e garantir a máxima geração de energia? Veja como a
+                            Solarbens pode te ajudar!
                         </p>
                     </div>
                 </div>
@@ -263,7 +347,11 @@
                             </div>
                             <div class="home_seventh-box-text">
                                 <p>
-                                    Não deixe a sujeira prejudicar a performance da sua usina solar! Nossa equipe especializada realiza a limpeza completa dos painéis, removendo todos os tipos de impurezas e otimizando a geração de energia. Utilizamos produtos e equipamentos seguros para garantir a integridade dos seus painéis. Com nossa limpeza periódica, você garante a máxima eficiência e prolonga a vid aútil do seu sistema fotovoltaico.
+                                    Não deixe a sujeira prejudicar a performance da sua usina solar! Nossa equipe
+                                    especializada realiza a limpeza completa dos painéis, removendo todos os tipos de
+                                    impurezas e otimizando a geração de energia. Utilizamos produtos e equipamentos
+                                    seguros para garantir a integridade dos seus painéis. Com nossa limpeza periódica,
+                                    você garante a máxima eficiência e prolonga a vida útil do seu sistema fotovoltaico.
                                 </p>
                             </div>
                         </div>
@@ -278,14 +366,19 @@
                             </div>
                             <div class="home_seventh-box-text">
                                 <p>
-                                    Com nossas inspeções regulares, identificamos e prevenimos problemas que podem causar interrupções na geração de energia e reduzir a vida útil dos equipamentos. Nossos especialistas realizam uma análise completa da instalação, garantindo o melhor desempenho e retorno sobre o seu investimento. Evite surpresas e garanta a produção contínua de energia limpa e renovável.
+                                    Com nossas inspeções regulares, identificamos e prevenimos problemas que podem
+                                    causar interrupções na geração de energia e reduzir a vida útil dos equipamentos.
+                                    Nossos especialistas realizam uma análise completa da instalação, garantindo o
+                                    melhor desempenho e retorno sobre o seu investimento. Evite surpresas e garanta a
+                                    produção contínua de energia limpa e renovável.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="home_seventh-content-box">
                         <div class="home_seventh-content-image">
-                            <img src="./assets/images/backgrounds/solarbens_estrutura_img03_monitoramento_home.png" alt="">
+                            <img src="./assets/images/backgrounds/solarbens_estrutura_img03_monitoramento_home.png"
+                                alt="">
                         </div>
                         <div class="home_seventh-box-content">
                             <div class="home_seventh-box-title">
@@ -293,7 +386,11 @@
                             </div>
                             <div class="home_seventh-box-text">
                                 <p>
-                                    Oferecemos monitoramento contínuo da sua geração de energia através do nosso sistema avançado, que detecta imediatamente qualquer anomalia, permitindo uma intervenção rápida e evitando danos maiores. Assim, você pode ficar tranquilo! Com um acompanhamento diário que garante o funcionamento perfeito do seu sistema, ficou ainda mais fácil manter a rentabilidade do seu investimento.
+                                    Oferecemos monitoramento contínuo da sua geração de energia através do nosso sistema
+                                    avançado, que detecta imediatamente qualquer anomalia, permitindo uma intervenção
+                                    rápida e evitando danos maiores. Assim, você pode ficar tranquilo! Com um
+                                    acompanhamento diário que garante o funcionamento perfeito do seu sistema, ficou
+                                    ainda mais fácil manter a rentabilidade do seu investimento.
                                 </p>
                             </div>
                         </div>
@@ -316,13 +413,14 @@
                             <p>Nos faça uma visita ou entre em contato conosco através do nossos WhatsApp!</p>
                         </div>
                         <div class="home_heighth-text-button">
-                            <a href="">
+                            <a target="_blank" href="https://wa.me/551831176414">
                                 <button class="solarbens_button-pre_config">Mande uma mensagem</button>
                             </a>
                         </div>
                         <div class="home_heighth-text-2">
                             <p>
-                                Nossos especialistas estão à disposição para tirar todas as suas dúvidas e encontrar a melhor solução em energia solar de forma personalizada e de acordo com sua necessidade.
+                                Nossos especialistas estão à disposição para tirar todas as suas dúvidas e encontrar a
+                                melhor solução em energia solar de forma personalizada e de acordo com sua necessidade.
                             </p>
                         </div>
                     </div>
@@ -356,28 +454,48 @@
                 <div class="footer_content">
                     <h3>Navegue</h3>
                     <ul class="footer_content-list">
-                        <a href="/institucional.html"><li>Institucional</li></a>
-                        <a href="/portfolio.html"><li>Portfólio de obras</li></a>
-                        <a href="/servicos.html"><li>Serviços</li></a>
-                        <a href="/equipe.html"><li>Equipe</li></a>
-                        <a href="/contato.html"><li>Fale conosco</li></a>
+                        <a href="sobre.html">
+                            <li>Institucional</li>
+                        </a>
+                        <a href="/portfolio.html">
+                            <li>Portfólio de obras</li>
+                        </a>
+                        <a href="/servicos.html">
+                            <li>Serviços</li>
+                        </a>
+                        <a href="/equipe.html">
+                            <li>Equipe</li>
+                        </a>
+                        <a href="/contato.html">
+                            <li>Fale conosco</li>
+                        </a>
                     </ul>
                 </div>
                 <div class="footer_content">
                     <h3>Entre em contato</h3>
                     <ul class="footer_content-list">
-                        <a href=""><li>rua Luiz Pereira Barreto, 191 <br> Centro - Araçatuba/SP - Brasil</li></a>
-                        <a href="http://wa.me/551831176414" class="footer_content-list-number" target="_blank"><li>+55 18 3117 6414</li></a>
-                        <a href=""><li>contato@solarbens.com.br</li></a>
+                        <a href="">
+                            <li>rua Luiz Pereira Barreto, 191 <br> Centro - Araçatuba/SP - Brasil</li>
+                        </a>
+                        <a href="http://wa.me/551831176414" class="footer_content-list-number" target="_blank">
+                            <li>+55 18 3117 6414</li>
+                        </a>
+                        <a href="">
+                            <li>contato@solarbens.com.br</li>
+                        </a>
                         <li class="footer_content-social">
-                            <a target="_blank" class="footer_social" href="https://www.facebook.com/profile.php?id=100089950159854">
-                                <img src="./assets/images/icons/social-icons/facebook-yellow.png" alt="solarbens facebook icon">
+                            <a target="_blank" class="footer_social"
+                                href="https://www.facebook.com/profile.php?id=100089950159854">
+                                <img src="./assets/images/icons/social-icons/facebook-yellow.png"
+                                    alt="solarbens facebook icon">
                             </a>
                             <a target="_blank" class="footer_social" href="https://www.instagram.com/solarbens/">
-                                <img src="./assets/images/icons/social-icons/instagram-yellow.png" alt="solarbens instagram icon">
+                                <img src="./assets/images/icons/social-icons/instagram-yellow.png"
+                                    alt="solarbens instagram icon">
                             </a>
                             <a target="_blank" class="footer_social" href="https://www.linkedin.com/company/solarbens/">
-                                <img src="./assets/images/icons/social-icons/linkedin-yellow.png" alt="solarbens linkedin icon">
+                                <img src="./assets/images/icons/social-icons/linkedin-yellow.png"
+                                    alt="solarbens linkedin icon">
                             </a>
                         </li>
                     </ul>
@@ -387,10 +505,12 @@
         <div class="main_container-pre_config footer_info-container">
             <div class="general_subcontainer-pre_config footer_info-subcontainer">
                 <p>
-                    © <span id="footer_date"></span> - Solarbens Energia Fotovoltaica - Todos os direitos reservador | Rua Luiz Pereira Barreto, 191 - Centro - Araçatuba/SP
+                    © <span id="footer_date"></span> - Solarbens Energia Fotovoltaica - Todos os direitos reservador |
+                    Rua Luiz Pereira Barreto, 191 - Centro - Araçatuba/SP
                 </p>
             </div>
         </div>
     </footer>
 </body>
+
 </html>

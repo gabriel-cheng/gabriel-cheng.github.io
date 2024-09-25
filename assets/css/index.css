@@ -9,11 +9,13 @@
 @import url("./sustentavel/sustentavel.css");
 @import url("./contato/contato.css");
 @import url("./equipe/equipe.css");
+@import url("./portfolio/interna.css");
 
 :root {
     --solarbens-black: #000;
     --solarbens-base: #FECC3A;
     --solarbens-gray: #373636;
+    --solarbens-gray-fosco: #373636a6;
     --solarbens-white: #FFF8ED;
     --solarbens-strong-gray: #232323;
     --solarbens-base-hover: #fae39e;

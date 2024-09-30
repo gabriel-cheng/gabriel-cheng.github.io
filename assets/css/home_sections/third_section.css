@@ -97,6 +97,15 @@
     .home_thr-section-container {
         background-image: none;
     }
+
+    .home_thr-section-logotype {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home_thr-section-logotype img {
+        max-width: 350px;
+    }
 }
 
 @media screen and (max-width: 395px) {

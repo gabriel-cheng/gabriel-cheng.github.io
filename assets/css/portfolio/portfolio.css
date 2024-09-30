@@ -46,8 +46,8 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 40px;
-    opacity: 0;
     transition: .2s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.555);
 }
 
 .portf_card-type p {
@@ -61,12 +61,6 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-
-.portf_card:hover .portf_card-content {
-    background-color: rgba(0, 0, 0, 0.555);
-    transition: .2s ease-in-out;
-    opacity: 100%;
 }
 
 .portf_card-title h1 {

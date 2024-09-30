@@ -109,8 +109,8 @@ path {
 }
 
 .header-sticky .header_main-subcontainer {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     transition: .3s ease;
 }
 

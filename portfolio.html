@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="shortcut icon" href="/assets/images/icons/favicon-solarbens.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/index.css">
-    <script src="./assets/scripts/toggle.js" defer></script>
     <script src="./assets/scripts/header_bg-change.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="./assets/scripts/header_bg-change.js" defer></script>
+    <script src="./assets/scripts/toggle.js" defer></script>
+    <script src="./assets/scripts/header_bg-change.js" defer></script>
+    <script src="./assets/scripts/filter.js" defer></script>
 </head>
 
 <body>
@@ -114,12 +117,24 @@
                         Conheça os projetos que nos orgulham e descubra as diversas possibilidades da energia solar através do nosso portfólio. Contamos com mais de <span>1500</span> projetos realizados, e nos tornamos referência no mercado. Desde projetos residenciais, até grandes empresas e usinas, temos a solução ideal pra você!
                     </p>
                 </div>
+                <div class="portf_filter-container">
+                    <div class="portf_filter-title">
+                        <p>Filtrar tipo de obra:</p>
+                    </div>
+                    <select name="filter" id="portf_filter">
+                        <option value="todos" selected>Todos</option>
+                        <option value="comercial">Obras Comerciais</option>
+                        <option value="industrial">Obras Industriais</option>
+                        <option value="residencial">Obras Residenciais</option>
+                        <option value="solo">Usina de Solo</option>
+                    </select>
+                </div>
             </div>
         </section>
 
         <section class="main_container-pre_config portf_cards-container">
             <div class="general_subcontainer-pre_config portf_cards-subcontainer">
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/carport-rio-preto.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/carport-rio-preto.png')" class="portf_card comercial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras comerciais</p>
@@ -140,7 +155,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/aguas-aragua.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/aguas-aragua.png')" class="portf_card industrial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras insdustriais</p>
@@ -161,7 +176,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/agd-delfinopolis.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/agd-delfinopolis.png')" class="portf_card solo">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Usinas de solo</p>
@@ -182,7 +197,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/anbar-faceres.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/anbar-faceres.png')" class="portf_card comercial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras comerciais</p>
@@ -203,7 +218,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/meias-dallf.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/meias-dallf.png')" class="portf_card industrial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras industriais</p>
@@ -224,7 +239,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/colegio-angeles.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/colegio-angeles.png')" class="portf_card comercial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras comerciais</p>
@@ -238,14 +253,14 @@
                                 <p><span>❯</span> 23.000 kWh/mês de geração do sistema</p>
                             </div>
                             <div class="portf_card-button">
-                                <a href="/portfolio/mirassol.html">
+                                <a href="/portfolio/angeles.html">
                                     <button class="solarbens_button-pre_config">Ver obra completa</button>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/hotel-1948.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/hotel-1948.png')" class="portf_card comercial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras comerciais</p>
@@ -266,7 +281,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/clube-ipe.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/clube-ipe.png')" class="portf_card comercial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras comerciais</p>
@@ -287,7 +302,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/carport-guatambu.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/carport-guatambu.png')" class="portf_card residencial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras residenciais</p>
@@ -301,14 +316,14 @@
                                 <p><span>❯</span> 990m² de área construída</p>
                             </div>
                             <div class="portf_card-button">
-                                <a href="/portfolio/mirassol.html">
+                                <a href="/portfolio/guatambu.html">
                                     <button class="solarbens_button-pre_config">Ver obra completa</button>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/genesis-eco.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/genesis-eco.png')" class="portf_card comercial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras comerciais</p>
@@ -322,14 +337,14 @@
                                 <p><span>❯</span> 109 kWp de potência nominal</p>
                             </div>
                             <div class="portf_card-button">
-                                <a href="/portfolio/mirassol.html">
+                                <a href="/portfolio/genesis.html">
                                     <button class="solarbens_button-pre_config">Ver obra completa</button>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/grupo-catuay.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/grupo-catuay.png')" class="portf_card industrial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras industriais</p>
@@ -343,14 +358,14 @@
                                 <p><span>❯</span> 38.000kWh/mês de geração média</p>
                             </div>
                             <div class="portf_card-button">
-                                <a href="/portfolio/mirassol.html">
+                                <a href="/portfolio/catuay.html">
                                     <button class="solarbens_button-pre_config">Ver obra completa</button>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/dacho-sushi.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/dacho-sushi.png')" class="portf_card solo">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Usina de solo</p>
@@ -371,7 +386,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/siran-ata.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/siran-ata.png')" class="portf_card solo">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Usina de solo</p>
@@ -392,7 +407,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/mirassol.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/mirassol.png')" class="portf_card solo">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Usina de solo</p>
@@ -413,7 +428,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/prever-mirassol.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/prever-mirassol.png')" class="portf_card comercial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras comerciais</p>
@@ -434,7 +449,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/tomoson-ata.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/tomoson-ata.png')" class="portf_card comercial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras comerciais</p>
@@ -455,7 +470,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card comercial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras comerciais</p>
@@ -476,7 +491,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card residencial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras residenciais</p>
@@ -497,7 +512,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card comercial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras comerciais</p>
@@ -518,7 +533,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card comercial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras comerciais</p>
@@ -539,7 +554,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card comercial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras comerciais</p>
@@ -560,7 +575,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card residencial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras residenciais</p>
@@ -581,7 +596,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card comercial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras comerciais</p>
@@ -602,7 +617,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card comercial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras comerciais</p>
@@ -623,7 +638,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card residencial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras residenciais</p>
@@ -644,7 +659,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card comercial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras comerciais</p>
@@ -665,7 +680,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/edward-bernardes.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/edward-bernardes.png')" class="portf_card residencial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>Obras residenciais</p>
@@ -679,14 +694,14 @@
                                 <p><span>❯</span> 15 microinversores DS3D</p>
                             </div>
                             <div class="portf_card-button">
-                                <a href="/portfolio/mirassol.html">
+                                <a href="/portfolio/edward.html">
                                     <button class="solarbens_button-pre_config">Ver obra completa</button>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/espacial-motel-birigui.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/espacial-motel-birigui.png')" class="portf_card solo">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>usinas de solo</p>
@@ -707,7 +722,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card comercial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>obras comerciais</p>
@@ -728,7 +743,7 @@
                         </div>
                     </div>
                 </div>
-                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card">
+                <div style="background-image: url('./assets/images/backgrounds/portfolio/example.png')" class="portf_card residencial">
                     <div class="portf_card-content">
                         <div class="portf_card-type">
                             <p>obras residenciais</p>

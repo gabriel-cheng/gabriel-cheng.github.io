@@ -65,7 +65,7 @@ button {
 .home_seventh-content-box,
 .home_seventh-content-image img {
     border-radius: 25px;
-    border: 2px solid var(--solarbens-base);
+    border: 2px solid var(--solarbens-gray);
 }
 
 .home_seventh-box-title
@@ -81,7 +81,7 @@ h1 {
 .home_seventh-box-title
 h1
 span {
-    color: var(--solarbens-base);
+    color: var(--solarbens-gray);
     font-size: 1rem;
     margin-right: 8px;
 }

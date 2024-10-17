@@ -19,6 +19,7 @@
     font-size: calc(1vw + 26px);
     font-weight: 500;
     color: var(--solarbens-white);
+    text-shadow: 2px 1.5px 2px black;
 }
 
 .home_fir-section-button {

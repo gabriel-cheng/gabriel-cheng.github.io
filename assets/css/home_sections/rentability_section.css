@@ -1,0 +1,147 @@
+.rentability_text-strong {
+    font-weight: 700;
+}
+
+.rentability_main-subcontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.rentability_content-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.rentability_icon-container img {
+    max-width: 300px;
+    width: 100%;
+}
+
+.rentability_text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rentability_title h1 {
+    font-size: 2.1rem;
+}
+
+.rentability_text p {
+    font-size: 1.2rem;
+}
+
+.rentability_text-container{
+    max-width: 300px;
+    width: 100%;
+}
+
+.rentability_button {
+    font-weight: 700;
+}
+
+.rentability_form-container {
+    width: 100%;
+    max-width: 400px;
+}
+
+#rentability_form {
+    border: 2px solid var(--solarbens-strong-base);
+    position: relative;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+#rentability_form,
+.rentability_form-header {
+    border-radius: 15px;
+}
+
+.rentability_form-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.rentability_form-input-container {
+    display: flex;
+    justify-content: center;
+}
+
+.rentability_form-input-container input {
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: 2px solid var(--solarbens-strong-base);
+    border-radius: 25px;
+    padding: 0 10px;
+    font-size: 1rem;
+}
+
+input::placeholder {
+    font-weight: 700;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.rentability_form-header {
+    background-color: var(--solarbens-strong-base);
+    height: 60px;
+    position: absolute;
+    top: -2px;
+    padding: 10px;
+    text-align: center;
+}
+
+.form_button {
+    font-weight: 700;
+    height: 45px;
+    font-size: 0.8rem !important;
+    letter-spacing: 2px;
+    width: 220px !important;
+}
+
+.rentability_form-header p {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.rentability_form-header p {
+    color: var(--solarbens-white);
+}
+
+@media screen and (max-width: 1100px) {
+    .rentability_main-subcontainer {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .rentability_main-subcontainer {
+        gap: 50px;
+    }
+
+    .rentability_content-container {
+        flex-direction: column-reverse;
+    }
+
+    .rentability_text-container {
+        max-width: unset;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .rentability_button-container {
+        display: flex;
+        justify-content: center;
+    }
+}

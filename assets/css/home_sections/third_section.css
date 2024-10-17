@@ -3,18 +3,17 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-color: var(--solarbens-white);
-    padding-bottom: 60px;
 }
 
 .home_thr-section-content {
     display: grid;
     grid-template-areas:
-        "title img"
-        "txt img"
-        "btn img"
+        "title video"
+        "txt video"
+        "btn video"
     ;
     align-items: center;
-    justify-content: space-between;
+    column-gap: 30px;
 }
 
 .home_thr-section-title {
@@ -32,22 +31,21 @@
 
 .home_thr-section-text {
     grid-area: txt;
-    max-width: 550px;
+    max-width: 500px;
     width: 100%;
     margin-bottom: 35px;
+    text-align: justify;
 }
 
 .home_thr-section-button-container {
     grid-area: btn;
 }
 
-.home_thr-section-logotype {
-    grid-area: img;
-}
-
-.home_thr-section-logotype img {
-    max-width: 500px;
-    width: 100%;
+.thr_section-video {
+    grid-area: video;
+    width: 600px;
+    padding:56.25% 0 0 0;
+    position:relative;
 }
 
 .home_thr-section-button {
@@ -61,18 +59,22 @@
     }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1050px) {
     .home_thr-section-content {
         grid-template-areas:
             "title"
-            "img"
+            "video"
             "txt"
             "btn"
         ;
-        row-gap: 15px;
+        row-gap: 20px;
         justify-content: center;
     }
     
+    .thr_section-video {
+        width: 100%;
+    }
+
     .home_thr-section-button-container {
         display: flex;
         justify-content: center;
@@ -82,12 +84,18 @@
         width: 70vw;
     }
 
+    .home_thr-section-text {
+        max-width: unset;
+        margin: 0;
+    }
+
     .home_thr-section-text p {
         font-size: 16px;
     }
 
+    .home_thr-section-title,
     .home_thr-section-title h1 {
-        margin-bottom: 30px;
+        margin: 0;
     }
 
     .home_thr-section-title h1 {
@@ -96,15 +104,6 @@
 
     .home_thr-section-container {
         background-image: none;
-    }
-
-    .home_thr-section-logotype {
-        display: flex;
-        justify-content: center;
-    }
-
-    .home_thr-section-logotype img {
-        max-width: 350px;
     }
 }
 

@@ -139,14 +139,24 @@
                             <p>Solicite uma simulação gratuita para seu investimento</p>
                         </div>
                         <div class="rentability_form-content">
-                            <div class="rentability_form-input-container"><input type="text" name="name" id="name" placeholder="*Nome"></div>
-                            <div class="rentability_form-input-container"><input type="email" name="email" id="email" placeholder="*E-mail"></div>
-                            <div class="rentability_form-input-container"><input class="uk-input sp_celphones" type="text" name="telefone" placeholder="*telefone"></div>
+                            <div class="rentability_form-input-container"><input type="text" name="name" id="name" placeholder="*Nome" required></div>
+                            <div class="rentability_form-input-container"><input type="email" name="email" id="email" placeholder="*E-mail" required></div>
+                            <div class="rentability_form-input-container"><input class="uk-input sp_celphones" id="tel" type="text" name="telefone" placeholder="*telefone" required></div>
                             <div class="rentability_form-input-container">
                                 <button class="solarbens_button-pre_config form_button" type="submit">Solicite um estudo</button>
                             </div>
                         </div>
                     </form>
+                    <div class="form_popup-container">
+                        <div class="form_popup-subcontainer">
+                            <p class="form_popup-description"></p>
+                            <button onclick="closePopup('negative');" class="form_popup-close">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -570,7 +580,8 @@
         </div>
     </footer>
 
-
+    <script src="./assets/scripts/popup_controller.js"></script>
+    <script src="./assets/scripts/send_contact.js"></script>
     <script src="https://player.vimeo.com/api/player.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

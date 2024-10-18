@@ -71,3 +71,73 @@ a {
     background-color: var(--solarbens-base-hover);
     transition: .2s ease-in-out;
 }
+
+.form_popup-container {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: -100px;
+    left: 0;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    transition: .3s ease
+}
+
+.form_popup-show {
+    top: 20px;
+    transition: .3s ease;
+}
+
+.form_popup-subcontainer {
+    width: 70%;
+    min-width: 310px;
+    max-width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+}
+
+.form_popup-subcontainer p {
+    color: var(--solarbens-black)
+}
+
+.form_popup-close {
+    outline: 0;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 3px;
+    border: 0;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background-color: var(--solarbens-gray);
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.form_popup-close
+svg
+path {
+    color: var(--solarbens-white);
+}
+
+.form_popup-close:hover {
+    background-color: var(--solarbens-base-hover);
+    color: var(--solarbens-black);
+    transition: .2s ease;
+}
+
+.form_popup-close:hover >
+svg
+path {
+    color: var(--solarbens-black);
+    transition: .2s ease;
+}

@@ -140,3 +140,8 @@ path {
     color: var(--solarbens-black);
     transition: .2s ease;
 }
+
+.main_video-container {
+    padding:56.25% 0 0 0;
+    position:relative;
+}

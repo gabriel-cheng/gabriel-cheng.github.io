@@ -1,3 +1,4 @@
 models/
 base.html
 user_model.json
+*.db

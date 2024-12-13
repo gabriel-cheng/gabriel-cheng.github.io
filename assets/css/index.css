@@ -2,9 +2,9 @@
 @import url("./home_sections/section_imports.css");
 @import url("./partials/header.css");
 @import url("./partials/footer.css");
-@import url("./orçamento/orcamento.css");
+@import url("./orcamento/orcamento.css");
 @import url("./portfolio/portfolio.css");
-@import url("./serviços/servicos.css");
+@import url("./servicos/servicos.css");
 @import url("./institucional/institucional.css");
 @import url("./sustentavel/sustentavel.css");
 @import url("./contato/contato.css");

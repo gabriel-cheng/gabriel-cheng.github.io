@@ -9,6 +9,7 @@
 @import url("./sustentavel/sustentavel.css");
 @import url("./contato/contato.css");
 @import url("./portfolio/interna.css");
+@import url("./energy-efficiency/efficiency.css");
 
 :root {
     --solarbens-black: #000;

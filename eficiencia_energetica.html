@@ -42,11 +42,19 @@
                             <a href="sustentavel.html"><li class="header_subnavigation-item">Sustentável</li></a>
                         </ul>
                     </li>
+                    <li class="navigation_dropdown">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                        </svg>
+                        Serviços
+                        <ul class="header_subnavigation-container">
+                            <a href="eficiencia_energetica.html"><li class="header_subnavigation-item">Eficicência Energética</li></a>
+                            <a href="mercado_livre.html"><li class="header_subnavigation-item">Mercado Livre</li></a>
+                            <a href="eficiencia_energetica.html"><li class="header_subnavigation-item">Manutenção</li></a>
+                        </ul>
+                    </li>
                     <a href="/portfolio.html">
                         <li class="header_navigation-item">Portfólio de obras</li>
-                    </a>
-                    <a href="/servicos.html">
-                        <li class="header_navigation-item">Serviços</li>
                     </a>
                     <a href="/contato.html">
                         <li class="header_navigation-item">Fale conosco</li>
@@ -100,7 +108,7 @@
         </section>
 
         <section class="main_container-pre_config">
-            <div class="general_subcontainer-pre_config sust_main-subcontainer">
+            <div class="general_subcontainer-pre_config efficiency_main-container">
                 <div class="efficiency_content-container">
                     <div class="efficiency_title">
                         <h1>Eficicência energética: A estratégia certa para seu negócio</h1>
@@ -115,9 +123,77 @@
                         <img src="./assets/images/backgrounds/solarbens_interna_eficienciaenergia.jpg" alt="energy efficiency example">
                     </div>
                 </div>
+                <div class="efficiency_boxes-container">
+                    <div class="efficiency_boxes-title">
+                        <h1>Reduza custos e otimize sua operação - Descubra como economizar até 20% em energia</h1>
+                    </div>
+                    <div class="efficiency_boxes-content">
+                        <div class="efficiency_box">
+                            <div class="efficiency_box-title">
+                                <h3>Gestão inteligente de consumo</h3>
+                            </div>
+                            <div class="efficiency_box-text">
+                                <p>Tecnologias e estratégias para reduzir desperdícios e otimizar a distribuição de energia na sua empresa.</p>
+                            </div>
+                        </div>
+                        <div class="efficiency_box">
+                            <div class="efficiency_box-title">
+                                <h3>aproveitamento máximo dos recursos</h3>
+                            </div>
+                            <div class="efficiency_box-text">
+                                <p>Se você já tem tarifas reduzidas, podemos potencializar sua economia com soluções que fazem a diferença no longo prazo.</p>
+                            </div>
+                        </div>
+                        <div class="efficiency_box">
+                            <div class="efficiency_box-title">
+                                <h3>Maior previsibilidade financeira</h3>
+                            </div>
+                            <div class="efficiency_box-text">
+                                <p>Com uma estratégia eficiente, sua empresa ganha controle absoluto sobre os custos energéticos, protegendo-se de oscilações do mercado.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
+        <section class="main_container-pre_config rentability_main-container">
+            <div class="general_subcontainer-pre_config efficiency_form-main-container">
+                <div class="efficiency_form-text-container">
+                    <div class="efficiency_form-text-title">
+                        <h1>A Solarbens te guia nessa jornada para maximizar sua rentabilidade com energia.</h1>
+                    </div>
+                    <div class="efficiency_form-text">
+                        <p>Preencha o formulário e entraremos em contato para você aproveitar essa vantagem!</p>
+                    </div>
+                </div>
+                <div class="rentability_form-container">
+                    <form action="" id="rentability_form">
+                        <div class="rentability_form-header">
+                            <p>Solicite uma simulação gratuita para seu investimento</p>
+                        </div>
+                        <div class="rentability_form-content">
+                            <div class="rentability_form-input-container"><input type="text" name="name" id="name" placeholder="*Nome" required></div>
+                            <div class="rentability_form-input-container"><input type="email" name="email" id="email" placeholder="*E-mail" required></div>
+                            <div class="rentability_form-input-container"><input class="uk-input sp_celphones" id="tel" type="text" name="telefone" placeholder="*telefone" required></div>
+                            <div class="rentability_form-input-container">
+                                <button class="solarbens_button-pre_config form_button" type="submit">Solicite um estudo</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="form_popup-container">
+                        <div class="form_popup-subcontainer">
+                            <p class="form_popup-description"></p>
+                            <button onclick="closePopup('negative');" class="form_popup-close">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <section class="main_container-pre_config home_eighth-section-container">
             <div class="general_subcontainer-pre_config home_eighth-section-subcontainer">
@@ -221,5 +297,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/scripts/cell_mask.js"></script>
+    <script src="./assets/scripts/send_contact.js"></script>
 </body>
 </html>

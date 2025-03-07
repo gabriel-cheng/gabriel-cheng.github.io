@@ -2,11 +2,16 @@
     font-weight: 800;
 }
 
+.efficiency_main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .efficiency_content-container {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    font-size: calc(1vw + 2px);
     text-align: center;
 }
 
@@ -16,7 +21,7 @@
 }
 
 .efficiency_title h1 {
-text-transform: uppercase;
+    text-transform: uppercase;
     font-size: calc(1vw + 20px);
     text-align: center;
     max-width: 700px;
@@ -25,5 +30,62 @@ text-transform: uppercase;
 .efficiency_image img {
     border-radius: 25px;
     max-width: 1200px;
+    width: 100%;
+}
+
+.efficiency_boxes-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 60px;
+}
+
+.efficiency_boxes-title {
+    text-align: center;
+}
+
+.efficiency_boxes-title h1 {
+    text-transform: uppercase;
+    font-size: calc(1vw + 16px);
+}
+
+.efficiency_boxes-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.efficiency_box {
+    background-color: var(--solarbens-base);
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.efficiency_box-title h3 {
+    text-transform: uppercase;
+}
+
+.efficiency_main-container {
+    padding-top: 60px;
+}
+
+.efficiency_form-main-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.efficiency_form-text-title h1 {
+    font-size: calc(1vw + 18px);
+    text-align: center;
+}
+
+.efficiency_form-text-title h1,
+.efficiency_form-text p {
+    max-width: 500px;
     width: 100%;
 }

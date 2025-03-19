@@ -17,7 +17,7 @@ form.addEventListener("submit", async(event) => {
         "crm_service_string": "Usina",
         "crm_service_integer": "21305",
         "ip": await findIp(),
-        "responsible": "14729",
+        "responsible": "14208",
         "dispositivo": findDisplay(),
         "data": findData(),
         "url": findUrl(),
@@ -32,7 +32,7 @@ form.addEventListener("submit", async(event) => {
             },
             "body": JSON.stringify(data)
         });
-   
+
         showPopup("positive", "Mensagem enviada!");
     } catch (error) {
         showPopup("negative", "Mensagem não enviada.");
